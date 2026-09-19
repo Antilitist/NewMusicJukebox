@@ -1,0 +1,10 @@
+name=New Music + True Music Jukebox Bridge
+id=NewMusicJukebox
+poster=poster.png
+icon=icon.png
+description=Bridge between Tali's New Music and True Music Jukebox. <LINE> <LINE> Lets the jukebox load and play New Music cassettes, vinyls, and CDs (including multi-track albums and large mixtapes via NMTrackCatalog). <LINE> <LINE> <RGB:1.0,0.6,0.0> Requires <RGB:0.7,0.7,0.7> <LINE> - Tali's New Music (id NewMusic) <LINE> - True Music Jukebox (id TrueMusicJukebox) <LINE> <LINE> <RGB:1.0,0.6,0.0> Load order <RGB:0.7,0.7,0.7> <LINE> NewMusic - music packs - TrueMusicJukebox - NewMusicJukebox (last). <LINE> <LINE> <RGB:1.0,0.6,0.0> Features <RGB:0.7,0.7,0.7> <LINE> - Each song on a multi-track tape/mixtape appears in the playlist <LINE> - Random / skip / next work per song (including 100+ track mixtapes) <LINE> - Works with New Music child packs (medkit, mixtapes, KMBK, etc.) <LINE> - Readable Status Report dialog (debug/admin menu) <LINE> <LINE> Does not replace True Music media; those still work as before.
+author=Nipsy
+versionMin=42.20
+modversion=1.2.0
+require=NewMusic,TrueMusicJukebox
+loadModAfter=NewMusic,TrueMusicJukebox

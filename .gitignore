@@ -1,0 +1,13 @@
+# NewMusicJukebox
+
+Project Zomboid mod: New Music Jukebox
+
+Uploaded from Antilitist local mod folder.
+Source: $src
+"@ | Set-Content -Path (Join-Path X:\Users\USER\Desktop\Grokbot Docs\github-uploads\NewMusicJukebox 'README.md') -Encoding UTF8
+  @"
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+*.tmp
